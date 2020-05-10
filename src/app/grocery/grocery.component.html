@@ -1,0 +1,34 @@
+<div class="orders view">
+    <div class="container">
+        <header>
+            <h3><span class="glyphicon glyphicon-shopping-cart"></span>&nbsp;&nbsp;Grocery Information</h3>
+        </header>
+        <br />
+        <div class="navbar">
+            <ul class="nav navbar-nav">
+                <li class="toolbar-item">
+                    <a routerLink="details" routerLinkActive="active">
+                       <span class="glyphicon glyphicon-list"></span>&nbsp;&nbsp;Grocery Details
+                    </a>
+                </li>
+                <li class="toolbar-item">
+                    <a routerLink="edit" routerLinkActive="active">
+                        <span class="glyphicon glyphicon-edit"></span>&nbsp;&nbsp;Edit Grocery
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <router-outlet></router-outlet>
+            <br />
+            <br />
+            <a routerLink="/groceries">View all Grocery</a>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+

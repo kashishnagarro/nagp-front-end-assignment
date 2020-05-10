@@ -1,0 +1,14 @@
+.grocery-form input[type='text'], 
+.grocery-form input[type='number'],
+.grocery-form input[type='email'],
+.grocery-form select {
+    width:100%;
+}
+
+.grocery-form .ng-invalid {
+  border-left: 5px solid #a94442;
+}
+
+.grocery-form .ng-valid {
+  border-left: 5px solid #42A948;
+}

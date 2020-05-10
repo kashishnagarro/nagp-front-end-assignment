@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "name": "grocery 1",
+        "quantity": 5,
+        "details": "grocery 1 details",
+        "imageUrl": "",
+        "price": 78.3
+    },
+    {
+        "id": 2,
+        "name": "grocery 2",
+        "quantity": 6,
+        "details": "grocery 2 details",
+        "imageUrl": "",
+        "price": 72.3
+    },
+    {
+        "id": 3,
+        "name": "grocery 3",
+        "quantity": 5,
+        "details": "grocery 3 details",
+        "imageUrl": "",
+        "price": 178.3
+    },
+    {
+        "id": 4,
+        "name": "grocery 4",
+        "quantity": 10,
+        "details": "grocery 4 details",
+        "imageUrl": "",
+        "price": 388.3
+    },
+    {
+        "id": 5,
+        "name": "grocery 5",
+        "quantity": 15,
+        "details": "grocery 5 details",
+        "imageUrl": "",
+        "price": 738.3
+    },
+    {
+        "id": 6,
+        "name": "grocery 6",
+        "quantity": 5,
+        "details": "grocery 6 details",
+        "imageUrl": "",
+        "price": 97.4
+    },
+    {
+        "id": 7,
+        "name": "grocery 7",
+        "quantity": 89,
+        "details": "grocery 7 details",
+        "imageUrl": "",
+        "price": 590
+    },
+    {
+        "id": 8,
+        "name": "grocery 8",
+        "quantity": 25,
+        "details": "grocery 8 details",
+        "imageUrl": "",
+        "price": 566
+    },
+    {
+        "id": 9,
+        "name": "grocery 9",
+        "quantity": 25,
+        "details": "grocery 9 details",
+        "imageUrl": "",
+        "price": 78.3
+    },
+    {
+        "id": 10,
+        "name": "grocery 10",
+        "quantity": 10,
+        "details": "grocery 10 details",
+        "imageUrl": "",
+        "price": 728.3
+    },
+    {
+        "id": 11,
+        "name": "grocery 11",
+        "quantity": 2,
+        "details": "grocery 11 details",
+        "imageUrl": "",
+        "price": 448.3
+    },
+    {
+        "id": 12,
+        "name": "grocery 12",
+        "quantity": 5,
+        "details": "grocery 12 details",
+        "imageUrl": "",
+        "price": 68.34
+    },
+    {
+        "id": 13,
+        "name": "grocery 13",
+        "quantity": 4,
+        "details": "grocery 13 details",
+        "imageUrl": "",
+        "price": 98.3
+    },
+    {
+        "id": 14,
+        "name": "grocery 14",
+        "quantity": 67,
+        "details": "grocery 14 details",
+        "imageUrl": "",
+        "price": 228.3
+    }
+]

@@ -1,0 +1,66 @@
+    .toastr {
+      position: fixed;
+      z-index: 999999;
+    }
+    
+    .toastr.close-button:focus {
+      outline: 0;
+    }
+    
+    .toastr.top-left {
+      top: 12px;
+      left: 12px;
+    }
+    
+    .toastr.top-right {
+      top: 12px;
+      right: 12px;
+    }
+    
+    .toastr.bottom-right {
+      bottom: 12px;
+      right: 12px;
+    }
+    
+    .toastr.bottom-left {
+      bottom: 12px;
+      left: 12px;
+    }
+    
+    .toastr.top-center {
+      top: 12px;
+      left: 50%;
+      -webkit-transform: translate(-50%, 0%);
+              transform: translate(-50%, 0%);
+    }
+    
+    .toastr.bottom-center {
+      bottom: 12px;
+      left: 50%;
+      -webkit-transform: translate(-50%, 0%);
+              transform: translate(-50%, 0%);
+    }
+    
+    .toast {
+      cursor: pointer;
+      padding: 5;
+      width: 285px;
+      height: 65px; 
+      opacity: 0;      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      -webkit-transition: opacity 1s;
+      -moz-transition: opacity 1s; 
+      -o-transition: opacity 1s;
+      transition: opacity 1s;        
+    }   
+    
+    .toast.active {        
+      opacity: 1;
+    } 
+    
+    .toast-message {
+
+    }

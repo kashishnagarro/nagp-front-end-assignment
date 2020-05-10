@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row" *ngIf="grocery">
+        <div class="col-md-2">
+            <img src="" class="details-image" />
+        </div>
+        <div class="col-md-10">
+            <h4>
+                {{ grocery.name | capitalize }} &nbsp;
+            </h4>
+            <br />
+            Details: {{ grocery.details }}
+            <br />
+            Quantity: {{ grocery.quantity }}
+            <br />
+            Price: {{ grocery.price | currency:'USD':'symbol' }}
+        </div>
+    </div>
+    <br /><br />
+</div>
+<div *ngIf="!grocery" class="container">
+    No Grocery found
+</div>

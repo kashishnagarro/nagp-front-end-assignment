@@ -1,0 +1,35 @@
+<div class="groceries view indent">
+    <div class="container">
+        <header>
+            <h3>
+                <span class="glyphicon glyphicon-shopping-cart"></span>
+                {{ title }}
+            </h3>
+        </header>
+        <br />
+        <div class="row">
+            <div class="col-md-10">
+                <div class="navbar">
+                    <ul class="nav navbar-nav">
+                        <li class="toolbar-item">
+                            <a routerLink="/groceries/0/edit">
+                                <span class="glyphicon glyphicon-plus"></span> New Grocery
+                            </a>
+                        </li>
+                    </ul>
+                    <gm-filter-textbox class="navbar-right"
+                     (changed)="filterChanged($event)"></gm-filter-textbox>
+                </div>
+            </div>
+        </div>
+    
+        <gm-groceries-grid 
+          [groceries]="filteredGroceries"></gm-groceries-grid>
+
+        <gm-pagination
+            [totalItems]="totalRecords" 
+            [pageSize]="pageSize" 
+            (pageChanged)="pageChanged($event)"></gm-pagination>
+          
+    </div>
+</div>
