@@ -5,14 +5,12 @@ import { Observable } from 'rxjs';
 import { map, catchError } from 'rxjs/operators';
 
 import { IUserLogin } from '../../shared/interfaces';
+import { environment } from 'src/environments/environment';
 
 @Injectable()
 export class AuthService {
 
-    // Can use /api/auth below when running locally
-    // Full domain/port is included for Docker example or if it were to run in the cloud
-    port = '8081';
-    baseUrl = `${this.window.location.protocol}//${this.window.location.hostname}:${this.port}`;
+    baseUrl = environment.apiUrlBase;
     authUrl = this.baseUrl + '/api/auth';
     isAuthenticated = false;
     redirectUrl: string;

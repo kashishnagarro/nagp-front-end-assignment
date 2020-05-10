@@ -4,8 +4,7 @@ var express = require('express'),
     fs = require('fs'),
     app = express(),
     groceries = JSON.parse(fs.readFileSync('data/groceries.json', 'utf-8')),
-    // port = process.env.PORT || 8080;
-    port = 8081;
+    port = process.env.PORT || 8081;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());

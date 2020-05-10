@@ -31,14 +31,6 @@ th {
   cursor: pointer;
 }
 
-.orders-table {
-    width:50%;
-}
-
-.orders-table td {
-    width: 50%;
-}
-
 .summary-border {
     border-top: 2px solid black;
 }
