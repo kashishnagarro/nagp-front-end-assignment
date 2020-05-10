@@ -12,5 +12,7 @@ nagp front assignment on angular for year 3
 1. Go to http://localhost:8081 in your browser 
 
 1. Credentials
-   Username: <any valid email>
-   Password: <any string of minimum length 8 and which is alphanumeric>
+
+   Username: `<any valid email>`
+   
+   Password: ``<any string of minimum length 8 and which is alphanumeric>`
