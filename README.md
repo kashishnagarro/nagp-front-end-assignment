@@ -14,5 +14,5 @@ nagp front assignment on angular for year 3
 1. Credentials
 
    Username: `<any valid email>`
-   
-   Password: ``<any string of minimum length 8 and which is alphanumeric>`
+
+   Password: `<any string of minimum length 8 and which is alphanumeric>`
