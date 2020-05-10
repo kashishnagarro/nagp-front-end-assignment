@@ -59,7 +59,7 @@ app.get('/api/groceries/:id', (req, res) => {
 
 app.post('/api/groceries', (req, res) => {
     let postedGrocery = req.body;
-    let maxId = Math.max.apply(Math, groceries.map((cust) => cust.id));
+    let maxId = Math.max.apply(Math, groceries.map((item) => item.id));
     postedGrocery.id = ++maxId;
     postedGrocery.gender = (postedGrocery.id % 2 === 0) ? 'female' : 'male';
     groceries.push(postedGrocery);
