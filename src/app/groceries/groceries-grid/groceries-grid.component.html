@@ -14,17 +14,21 @@
                                     class="glyphicon glyphicon-sort"></span></th>
                             <th gmSortBy="price" (sorted)="sort($event)">Price <span
                                     class="glyphicon glyphicon-sort"></span></th>
+                            <th gmSortBy="price" (sorted)="sort($event)">Added On <span
+                                    class="glyphicon glyphicon-sort"></span></th>
                             <th>&nbsp;</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr *ngFor="let grocery of groceries;trackBy:trackbyService.grocery">
                             <td><img src="" class="grid-image" alt="Grocery Image" /></td>
-                            <td><a [routerLink]="['/groceries',grocery.id,'details']">{{ grocery.name | capitalize }}</a>
+                            <td><a
+                                    [routerLink]="['/groceries',grocery.id,'details']">{{ grocery.name | capitalize }}</a>
                             </td>
                             <td>{{ grocery.details | trim }}</td>
                             <td>{{ grocery.quantity }}</td>
                             <td>{{ grocery.price | currency:'USD':'symbol' }}</td>
+                            <td>{{ grocery.createdOn | date:'d/M/yyyy' }}</td>
                             <td><a [routerLink]="['/groceries',grocery.id,'details']">View Grocery</a></td>
                         </tr>
                         <tr *ngIf="!groceries.length">

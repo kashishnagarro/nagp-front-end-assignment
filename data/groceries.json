@@ -5,7 +5,9 @@
         "quantity": 5,
         "details": "grocery 1 details",
         "imageUrl": "",
-        "price": 78.3
+        "price": 78.3,
+        "createdOn": "2020-05-09T14:20:50.610Z",
+        "updatedOn":"2020-05-09T14:20:50.610Z"
     },
     {
         "id": 2,
@@ -13,7 +15,9 @@
         "quantity": 6,
         "details": "grocery 2 details",
         "imageUrl": "",
-        "price": 72.3
+        "price": 72.3,
+        "createdOn": "2020-05-09T14:20:50.610Z",
+        "updatedOn":"2020-05-09T14:20:50.610Z"
     },
     {
         "id": 3,
@@ -21,7 +25,9 @@
         "quantity": 5,
         "details": "grocery 3 details",
         "imageUrl": "",
-        "price": 178.3
+        "price": 178.3,
+        "createdOn": "2020-05-09T14:20:50.610Z",
+        "updatedOn":"2020-05-09T14:20:50.610Z"
     },
     {
         "id": 4,
@@ -29,7 +35,9 @@
         "quantity": 10,
         "details": "grocery 4 details",
         "imageUrl": "",
-        "price": 388.3
+        "price": 388.3,
+        "createdOn": "2020-05-09T14:20:50.610Z",
+        "updatedOn":"2020-05-09T14:20:50.610Z"
     },
     {
         "id": 5,
@@ -37,7 +45,9 @@
         "quantity": 15,
         "details": "grocery 5 details",
         "imageUrl": "",
-        "price": 738.3
+        "price": 738.3,
+        "createdOn": "2020-05-09T14:20:50.610Z",
+        "updatedOn":"2020-05-09T14:20:50.610Z"
     },
     {
         "id": 6,
@@ -45,7 +55,9 @@
         "quantity": 5,
         "details": "grocery 6 details",
         "imageUrl": "",
-        "price": 97.4
+        "price": 97.4,
+        "createdOn": "2020-05-09T14:20:50.610Z",
+        "updatedOn":"2020-05-09T14:20:50.610Z"
     },
     {
         "id": 7,
@@ -53,7 +65,9 @@
         "quantity": 89,
         "details": "grocery 7 details",
         "imageUrl": "",
-        "price": 590
+        "price": 590,
+        "createdOn": "2020-05-09T14:20:50.610Z",
+        "updatedOn":"2020-05-09T14:20:50.610Z"
     },
     {
         "id": 8,
@@ -61,7 +75,9 @@
         "quantity": 25,
         "details": "grocery 8 details",
         "imageUrl": "",
-        "price": 566
+        "price": 566,
+        "createdOn": "2020-05-09T14:20:50.610Z",
+        "updatedOn":"2020-05-09T14:20:50.610Z"
     },
     {
         "id": 9,
@@ -69,7 +85,9 @@
         "quantity": 25,
         "details": "grocery 9 details",
         "imageUrl": "",
-        "price": 78.3
+        "price": 78.3,
+        "createdOn": "2020-05-09T14:20:50.610Z",
+        "updatedOn":"2020-05-09T14:20:50.610Z"
     },
     {
         "id": 10,
@@ -77,7 +95,9 @@
         "quantity": 10,
         "details": "grocery 10 details",
         "imageUrl": "",
-        "price": 728.3
+        "price": 128.3,
+        "createdOn": "2020-05-09T14:20:50.610Z",
+        "updatedOn":"2020-05-09T14:20:50.610Z"
     },
     {
         "id": 11,
@@ -85,7 +105,9 @@
         "quantity": 2,
         "details": "grocery 11 details",
         "imageUrl": "",
-        "price": 448.3
+        "price": 448.3,
+        "createdOn": "2020-05-09T14:20:50.610Z",
+        "updatedOn":"2020-05-09T14:20:50.610Z"
     },
     {
         "id": 12,
@@ -93,7 +115,9 @@
         "quantity": 5,
         "details": "grocery 12 details",
         "imageUrl": "",
-        "price": 68.34
+        "price": 962.78,
+        "createdOn": "2020-05-09T14:20:50.610Z",
+        "updatedOn":"2020-05-09T14:20:50.610Z"
     },
     {
         "id": 13,
@@ -101,7 +125,9 @@
         "quantity": 4,
         "details": "grocery 13 details",
         "imageUrl": "",
-        "price": 98.3
+        "price": 675.2,
+        "createdOn": "2020-05-09T14:20:50.610Z",
+        "updatedOn":"2020-05-09T14:20:50.610Z"
     },
     {
         "id": 14,
@@ -109,6 +135,8 @@
         "quantity": 67,
         "details": "grocery 14 details",
         "imageUrl": "",
-        "price": 228.3
+        "price": 228.1,
+        "createdOn": "2020-05-09T14:20:50.610Z",
+        "updatedOn":"2020-05-09T14:20:50.610Z"
     }
 ]

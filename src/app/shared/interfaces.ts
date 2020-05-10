@@ -10,6 +10,8 @@ export interface IGrocery {
     details: string;
     imageUrl: string;
     price: number;
+    createdOn: Date;
+    updatedOn: Date;
 }
 
 export interface IPagedResults<T> {

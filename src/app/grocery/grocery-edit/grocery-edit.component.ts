@@ -20,7 +20,9 @@ export class GroceryEditComponent implements OnInit {
       details: '',
       imageUrl: '',
       price: 0,
-      quantity: 0
+      quantity: 0,
+      createdOn: new Date(),
+      updatedOn: new Date()
     };
   errorMessage: string;
   deleteMessageEnabled: boolean;
@@ -55,6 +57,8 @@ export class GroceryEditComponent implements OnInit {
 
   submit() {
     if (this.grocery.id === 0) {
+      this.grocery.createdOn = new Date();
+      this.grocery.updatedOn = new Date();
       this.dataService.insertGrocery(this.grocery)
         .subscribe((insertedGrocery: IGrocery) => {
           if (insertedGrocery) {
@@ -69,6 +73,7 @@ export class GroceryEditComponent implements OnInit {
         },
           (err: any) => this.logger.log(err));
     } else {
+      this.grocery.updatedOn = new Date();
       this.dataService.updateGrocery(this.grocery)
         .subscribe((status: boolean) => {
           if (status) {
